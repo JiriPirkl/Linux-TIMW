@@ -1,7 +1,7 @@
 # Maintainer: Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 pkgbase=linux-next-git
-pkgver=20241212.r0.g3e42dc9229c5
+pkgver=20241220.r0.g8155b4ef3466
 pkgrel=1
 pkgdesc='Linux-TIMW'
 url="http://www.kernel.org/"
