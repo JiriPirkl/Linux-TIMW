@@ -7,11 +7,7 @@ pkgdesc='Linux-TIMW'
 url="http://www.kernel.org/"
 arch=(x86_64)
 license=(GPL-2.0-only)
-options=(
-  !debug
-  !strip
-  !lto
-)
+options=(strip !docs !libtool !staticlibs !emptydirs zipman purge !debug lto)
 makedepends=('bc' 'libelf' 'git' 'pahole' 'cpio' 'perl' 'tar' 'xz' 'python')
 _srcname=linux-next
 source=("git+https://git.kernel.org/pub/scm/linux/kernel/git/next/${_srcname}.git"
